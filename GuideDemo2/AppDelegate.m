@@ -7,17 +7,53 @@
 //
 
 #import "AppDelegate.h"
+#import "DrIntroductionViewController.h"
+#import "DrPrefs.h"
+#import "DrPrefs+IntroInfo.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<DrIntroductionViewDelegate>
+
+@property (nonatomic, strong) DrIntroductionViewController *introController;// 新手指引
+@property (nonatomic, strong) UIStoryboard  *storyboard;
 
 @end
 
 @implementation AppDelegate
-
+@synthesize introController;
+@synthesize storyboard;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    storyboard      = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    [self showIntroduction];
+    
     return YES;
+}
+
+- (void)showIntroduction{
+    
+    if (NO == [[DrPrefs shareInstance] isIntroFinished]) {// 新手指引是否已显示完毕
+        // 显示新手指引 DrIntroductionViewControlle
+        introController = [[DrIntroductionViewController alloc] init];
+        introController.introDelegate = self;
+        introController.view.frame = CGRectMake(0.0, 0.0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+        self.window.rootViewController = introController;
+    }else{
+        self.window.rootViewController = [storyboard instantiateInitialViewController];
+        [self.window makeKeyAndVisible];
+    }
+}
+
+/**
+ *  新手指引显示完毕，进入主页
+ */
+- (void)finishIntro{
+    
+    [introController.view removeFromSuperview];
+    // 显示主页面
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
 }
 
 

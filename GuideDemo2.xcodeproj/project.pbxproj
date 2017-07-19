@@ -13,6 +13,14 @@
 		00F07DB11F1F3FB3001C4D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F07DAF1F1F3FB3001C4D44 /* Main.storyboard */; };
 		00F07DB31F1F3FB3001C4D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F07DB21F1F3FB3001C4D44 /* Assets.xcassets */; };
 		00F07DB61F1F3FB3001C4D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F07DB41F1F3FB3001C4D44 /* LaunchScreen.storyboard */; };
+		00F07DCB1F1F3FBF001C4D44 /* DrIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F07DBF1F1F3FBF001C4D44 /* DrIntroductionViewController.m */; };
+		00F07DCC1F1F3FBF001C4D44 /* DrMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F07DC11F1F3FBF001C4D44 /* DrMyViewController.m */; };
+		00F07DCD1F1F3FBF001C4D44 /* DrPhoneContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F07DC31F1F3FBF001C4D44 /* DrPhoneContentController.m */; };
+		00F07DCE1F1F3FBF001C4D44 /* DrPrefs+IntroInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F07DC51F1F3FBF001C4D44 /* DrPrefs+IntroInfo.m */; };
+		00F07DCF1F1F3FBF001C4D44 /* DrPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F07DC71F1F3FBF001C4D44 /* DrPrefs.m */; };
+		00F07DD01F1F3FBF001C4D44 /* guide1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F07DC81F1F3FBF001C4D44 /* guide1@2x.jpg */; };
+		00F07DD11F1F3FBF001C4D44 /* guide2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F07DC91F1F3FBF001C4D44 /* guide2@2x.jpg */; };
+		00F07DD21F1F3FBF001C4D44 /* guide3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F07DCA1F1F3FBF001C4D44 /* guide3@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,19 @@
 		00F07DB21F1F3FB3001C4D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00F07DB51F1F3FB3001C4D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00F07DB71F1F3FB3001C4D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F07DBE1F1F3FBF001C4D44 /* DrIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrIntroductionViewController.h; sourceTree = "<group>"; };
+		00F07DBF1F1F3FBF001C4D44 /* DrIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrIntroductionViewController.m; sourceTree = "<group>"; };
+		00F07DC01F1F3FBF001C4D44 /* DrMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrMyViewController.h; sourceTree = "<group>"; };
+		00F07DC11F1F3FBF001C4D44 /* DrMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrMyViewController.m; sourceTree = "<group>"; };
+		00F07DC21F1F3FBF001C4D44 /* DrPhoneContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrPhoneContentController.h; sourceTree = "<group>"; };
+		00F07DC31F1F3FBF001C4D44 /* DrPhoneContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrPhoneContentController.m; sourceTree = "<group>"; };
+		00F07DC41F1F3FBF001C4D44 /* DrPrefs+IntroInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrPrefs+IntroInfo.h"; sourceTree = "<group>"; };
+		00F07DC51F1F3FBF001C4D44 /* DrPrefs+IntroInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DrPrefs+IntroInfo.m"; sourceTree = "<group>"; };
+		00F07DC61F1F3FBF001C4D44 /* DrPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrPrefs.h; sourceTree = "<group>"; };
+		00F07DC71F1F3FBF001C4D44 /* DrPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrPrefs.m; sourceTree = "<group>"; };
+		00F07DC81F1F3FBF001C4D44 /* guide1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "guide1@2x.jpg"; sourceTree = "<group>"; };
+		00F07DC91F1F3FBF001C4D44 /* guide2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "guide2@2x.jpg"; sourceTree = "<group>"; };
+		00F07DCA1F1F3FBF001C4D44 /* guide3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "guide3@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 		00F07DA51F1F3FB3001C4D44 /* GuideDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				00F07DBD1F1F3FBF001C4D44 /* Guide */,
 				00F07DA91F1F3FB3001C4D44 /* AppDelegate.h */,
 				00F07DAA1F1F3FB3001C4D44 /* AppDelegate.m */,
 				00F07DAC1F1F3FB3001C4D44 /* ViewController.h */,
@@ -77,6 +99,26 @@
 				00F07DA71F1F3FB3001C4D44 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F07DBD1F1F3FBF001C4D44 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				00F07DBE1F1F3FBF001C4D44 /* DrIntroductionViewController.h */,
+				00F07DBF1F1F3FBF001C4D44 /* DrIntroductionViewController.m */,
+				00F07DC01F1F3FBF001C4D44 /* DrMyViewController.h */,
+				00F07DC11F1F3FBF001C4D44 /* DrMyViewController.m */,
+				00F07DC21F1F3FBF001C4D44 /* DrPhoneContentController.h */,
+				00F07DC31F1F3FBF001C4D44 /* DrPhoneContentController.m */,
+				00F07DC41F1F3FBF001C4D44 /* DrPrefs+IntroInfo.h */,
+				00F07DC51F1F3FBF001C4D44 /* DrPrefs+IntroInfo.m */,
+				00F07DC61F1F3FBF001C4D44 /* DrPrefs.h */,
+				00F07DC71F1F3FBF001C4D44 /* DrPrefs.m */,
+				00F07DC81F1F3FBF001C4D44 /* guide1@2x.jpg */,
+				00F07DC91F1F3FBF001C4D44 /* guide2@2x.jpg */,
+				00F07DCA1F1F3FBF001C4D44 /* guide3@2x.jpg */,
+			);
+			path = Guide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +152,7 @@
 				TargetAttributes = {
 					00F07DA21F1F3FB3001C4D44 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 82KU6294N5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F07DD11F1F3FBF001C4D44 /* guide2@2x.jpg in Resources */,
+				00F07DD21F1F3FBF001C4D44 /* guide3@2x.jpg in Resources */,
 				00F07DB61F1F3FB3001C4D44 /* LaunchScreen.storyboard in Resources */,
+				00F07DD01F1F3FBF001C4D44 /* guide1@2x.jpg in Resources */,
 				00F07DB31F1F3FB3001C4D44 /* Assets.xcassets in Resources */,
 				00F07DB11F1F3FB3001C4D44 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F07DCB1F1F3FBF001C4D44 /* DrIntroductionViewController.m in Sources */,
 				00F07DAE1F1F3FB3001C4D44 /* ViewController.m in Sources */,
+				00F07DCF1F1F3FBF001C4D44 /* DrPrefs.m in Sources */,
+				00F07DCD1F1F3FBF001C4D44 /* DrPhoneContentController.m in Sources */,
 				00F07DAB1F1F3FB3001C4D44 /* AppDelegate.m in Sources */,
+				00F07DCC1F1F3FBF001C4D44 /* DrMyViewController.m in Sources */,
 				00F07DA81F1F3FB3001C4D44 /* main.m in Sources */,
+				00F07DCE1F1F3FBF001C4D44 /* DrPrefs+IntroInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82KU6294N5;
 				INFOPLIST_FILE = GuideDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.didicat.GuideDemo2;
@@ -283,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82KU6294N5;
 				INFOPLIST_FILE = GuideDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.didicat.GuideDemo2;
