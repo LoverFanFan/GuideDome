@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99A0ABC3AEF29718462F0A698500536048856D8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "775d3c92-08cf-4441-aee4-181e9941818d++8604" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "99A0ABC3AEF29718462F0A698500536048856D8D" : 9223372036854775807,
+    "775d3c92-08cf-4441-aee4-181e9941818d++8604" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "46CB85B2-B056-4359-BCEF-19C0423E8CF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "99A0ABC3AEF29718462F0A698500536048856D8D" : "YindaoDemo2\/",
+    "775d3c92-08cf-4441-aee4-181e9941818d++8604" : "YindaoDemo2\/GuideDemo2\/Guide\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GuideDemo2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GuideDemo2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.catcatsoft.com:82\/starspace",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "775d3c92-08cf-4441-aee4-181e9941818d++8604"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LoverFanFan\/Guide",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99A0ABC3AEF29718462F0A698500536048856D8D"
+    }
+  ]
+}
